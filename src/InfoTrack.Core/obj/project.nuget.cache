@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MQSGAyg+YLs=",
+  "success": true,
+  "projectFilePath": "/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/InfoTrack.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/raldis/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
