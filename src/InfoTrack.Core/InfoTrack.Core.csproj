@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InfoTrack.Scraping\InfoTrack.Scraping.csproj" />
+    <ProjectReference Include="..\InfoTrack.Parsing\InfoTrack.Parsing.csproj" />
+  </ItemGroup>
+
 </Project>

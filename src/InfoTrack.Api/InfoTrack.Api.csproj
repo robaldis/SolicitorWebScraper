@@ -12,8 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InfoTrack.Core\InfoTrack.Core.csproj" />
-    <ProjectReference Include="..\InfoTrack.Scraping\InfoTrack.Scraping.csproj" />
-    <ProjectReference Include="..\InfoTrack.Parsing\InfoTrack.Parsing.csproj" />
   </ItemGroup>
 
 </Project>

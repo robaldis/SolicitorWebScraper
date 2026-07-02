@@ -37,3 +37,7 @@
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Api/obj/Debug/net10.0/InfoTrack.Api.pdb
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Api/obj/Debug/net10.0/InfoTrack.Api.genruntimeconfig.cache
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Api/obj/Debug/net10.0/ref/InfoTrack.Api.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/Microsoft.Extensions.Options.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll

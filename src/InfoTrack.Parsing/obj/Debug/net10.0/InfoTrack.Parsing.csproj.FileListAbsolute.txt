@@ -1,14 +1,10 @@
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/bin/Debug/net10.0/InfoTrack.Parsing.deps.json
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/bin/Debug/net10.0/InfoTrack.Parsing.dll
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/bin/Debug/net10.0/InfoTrack.Parsing.pdb
-/home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/bin/Debug/net10.0/InfoTrack.Core.dll
-/home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/bin/Debug/net10.0/InfoTrack.Core.pdb
-/home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/InfoTrack.Parsing.csproj.AssemblyReference.cache
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/InfoTrack.Parsing.GeneratedMSBuildEditorConfig.editorconfig
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/InfoTrack.Parsing.AssemblyInfoInputs.cache
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/InfoTrack.Parsing.AssemblyInfo.cs
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/InfoTrack.Parsing.csproj.CoreCompileInputs.cache
-/home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/InfoTrac.7A21DD59.Up2Date
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/InfoTrack.Parsing.dll
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/refint/InfoTrack.Parsing.dll
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/obj/Debug/net10.0/InfoTrack.Parsing.pdb

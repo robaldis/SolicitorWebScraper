@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KB9Yji4ibHc=",
+  "dgSpecHash": "kQkWhxWxdCg=",
   "success": true,
   "projectFilePath": "/home/raldis/Personal/InfoTrack/src/InfoTrack.Parsing/InfoTrack.Parsing.csproj",
   "expectedPackageFiles": [
-    "/home/raldis/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+    "/home/raldis/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
   ],
   "logs": []
 }

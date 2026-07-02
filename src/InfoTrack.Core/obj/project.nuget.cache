@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "MQSGAyg+YLs=",
+  "dgSpecHash": "pmug4z9DP30=",
   "success": true,
   "projectFilePath": "/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/InfoTrack.Core.csproj",
   "expectedPackageFiles": [
-    "/home/raldis/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+    "/home/raldis/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.9/microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512",
+    "/home/raldis/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.9/microsoft.extensions.logging.abstractions.10.0.9.nupkg.sha512",
+    "/home/raldis/.nuget/packages/microsoft.extensions.options/10.0.9/microsoft.extensions.options.10.0.9.nupkg.sha512",
+    "/home/raldis/.nuget/packages/microsoft.extensions.primitives/10.0.9/microsoft.extensions.primitives.10.0.9.nupkg.sha512",
+    "/home/raldis/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
   ],
   "logs": []
 }

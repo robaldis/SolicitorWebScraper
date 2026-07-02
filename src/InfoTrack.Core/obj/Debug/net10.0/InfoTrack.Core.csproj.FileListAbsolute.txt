@@ -9,3 +9,9 @@
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Core/obj/Debug/net10.0/refint/InfoTrack.Core.dll
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Core/obj/Debug/net10.0/InfoTrack.Core.pdb
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Core/obj/Debug/net10.0/ref/InfoTrack.Core.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/obj/Debug/net10.0/InfoTrack.Core.csproj.AssemblyReference.cache
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/bin/Debug/net10.0/InfoTrack.Parsing.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/bin/Debug/net10.0/InfoTrack.Scraping.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/bin/Debug/net10.0/InfoTrack.Scraping.pdb
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/bin/Debug/net10.0/InfoTrack.Parsing.pdb
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/obj/Debug/net10.0/InfoTrac.59947F06.Up2Date

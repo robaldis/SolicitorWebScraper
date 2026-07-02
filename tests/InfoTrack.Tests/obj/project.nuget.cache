@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nuUFAY7p6cs=",
+  "dgSpecHash": "LoO+G15g28g=",
   "success": true,
   "projectFilePath": "/home/raldis/Personal/InfoTrack/tests/InfoTrack.Tests/InfoTrack.Tests.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,7 @@
     "/home/raldis/.nuget/packages/nunit/4.3.2/nunit.4.3.2.nupkg.sha512",
     "/home/raldis/.nuget/packages/nunit.analyzers/4.7.0/nunit.analyzers.4.7.0.nupkg.sha512",
     "/home/raldis/.nuget/packages/nunit3testadapter/5.0.0/nunit3testadapter.5.0.0.nupkg.sha512",
-    "/home/raldis/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+    "/home/raldis/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
   ],
   "logs": []
 }
