@@ -112,6 +112,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "InfoTrack.Models": "1.0.0",
           "InfoTrack.Parsing": "1.0.0",
           "InfoTrack.Scraping": "1.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.9"
@@ -123,9 +124,22 @@
           "bin/placeholder/InfoTrack.Core.dll": {}
         }
       },
+      "InfoTrack.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/InfoTrack.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InfoTrack.Models.dll": {}
+        }
+      },
       "InfoTrack.Parsing/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "InfoTrack.Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/InfoTrack.Parsing.dll": {}
         },
@@ -369,6 +383,11 @@
       "path": "../InfoTrack.Core/InfoTrack.Core.csproj",
       "msbuildProject": "../InfoTrack.Core/InfoTrack.Core.csproj"
     },
+    "InfoTrack.Models/1.0.0": {
+      "type": "project",
+      "path": "../InfoTrack.Models/InfoTrack.Models.csproj",
+      "msbuildProject": "../InfoTrack.Models/InfoTrack.Models.csproj"
+    },
     "InfoTrack.Parsing/1.0.0": {
       "type": "project",
       "path": "../InfoTrack.Parsing/InfoTrack.Parsing.csproj",
@@ -383,6 +402,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "InfoTrack.Core >= 1.0.0",
+      "InfoTrack.Models >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.4"
     ]
   },
@@ -413,6 +433,9 @@
           "projectReferences": {
             "/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/InfoTrack.Core.csproj": {
               "projectPath": "/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/InfoTrack.Core.csproj"
+            },
+            "/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/InfoTrack.Models.csproj": {
+              "projectPath": "/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/InfoTrack.Models.csproj"
             }
           }
         }

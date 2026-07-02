@@ -7,7 +7,6 @@ namespace InfoTrack.Api.Controllers;
 [Route("api/[controller]")]
 public class SearchController : ControllerBase
 {
-
     private readonly ISearchApi _api;
 
     public SearchController(ISearchApi searchApi)
@@ -15,18 +14,29 @@ public class SearchController : ControllerBase
         _api = searchApi;
     }
 
-
-    [HttpGet("ping")]
+    [HttpGet("health")]
     public IActionResult Health()
     {
         return Ok(new { message = "InfoTrack API is alive", timestamp = DateTime.UtcNow });
     }
 
+    [HttpGet("locations")]
+    public IActionResult GetLocations()
+    {
+        return Ok(_api.GetLocations());
+    }
+
     [HttpGet("conveyancy")]
     public async Task<IActionResult> SearchConveyancy([FromQuery] List<string> locations)
     {
-        Console.WriteLine(_api);
-        await _api.SearchAsync(locations);
-        return Ok(new {message = $"Trying to search, I will try do that... Found nothing"});
+        try
+        {
+            var results = await _api.SearchAsync(locations);
+            return Ok(results);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new { error = ex.Message });
+        }
     }
 }

@@ -1,4 +1,4 @@
-namespace InfoTrack.Core.Models;
+namespace InfoTrack.Models;
 
 public record Solicitor(
     string Name,

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InfoTrack.Models\InfoTrack.Models.csproj" />
+  </ItemGroup>
+
 </Project>

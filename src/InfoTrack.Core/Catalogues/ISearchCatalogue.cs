@@ -1,4 +1,4 @@
-using InfoTrack.Core.Models;
+using InfoTrack.Models;
 
 namespace InfoTrack.Core.Catalogue;
 

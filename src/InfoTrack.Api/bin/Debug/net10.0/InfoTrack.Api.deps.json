@@ -9,6 +9,7 @@
       "InfoTrack.Api/1.0.0": {
         "dependencies": {
           "InfoTrack.Core": "1.0.0",
+          "InfoTrack.Models": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "10.0.4"
         },
         "runtime": {
@@ -75,6 +76,7 @@
       },
       "InfoTrack.Core/1.0.0": {
         "dependencies": {
+          "InfoTrack.Models": "1.0.0",
           "InfoTrack.Parsing": "1.0.0",
           "InfoTrack.Scraping": "1.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.9"
@@ -86,7 +88,18 @@
           }
         }
       },
+      "InfoTrack.Models/1.0.0": {
+        "runtime": {
+          "InfoTrack.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "InfoTrack.Parsing/1.0.0": {
+        "dependencies": {
+          "InfoTrack.Models": "1.0.0"
+        },
         "runtime": {
           "InfoTrack.Parsing.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -157,6 +170,11 @@
       "hashPath": "microsoft.openapi.2.0.0.nupkg.sha512"
     },
     "InfoTrack.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InfoTrack.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

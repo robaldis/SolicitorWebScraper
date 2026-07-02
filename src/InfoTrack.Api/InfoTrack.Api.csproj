@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InfoTrack.Core\InfoTrack.Core.csproj" />
+    <ProjectReference Include="..\InfoTrack.Models\InfoTrack.Models.csproj" />
   </ItemGroup>
 
 </Project>

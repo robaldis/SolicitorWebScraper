@@ -1,0 +1,11 @@
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/bin/Debug/net10.0/InfoTrack.Models.deps.json
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/bin/Debug/net10.0/InfoTrack.Models.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/bin/Debug/net10.0/InfoTrack.Models.pdb
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/obj/Debug/net10.0/InfoTrack.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/obj/Debug/net10.0/InfoTrack.Models.AssemblyInfoInputs.cache
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/obj/Debug/net10.0/InfoTrack.Models.AssemblyInfo.cs
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/obj/Debug/net10.0/InfoTrack.Models.csproj.CoreCompileInputs.cache
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/obj/Debug/net10.0/InfoTrack.Models.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/obj/Debug/net10.0/refint/InfoTrack.Models.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/obj/Debug/net10.0/InfoTrack.Models.pdb
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Models/obj/Debug/net10.0/ref/InfoTrack.Models.dll

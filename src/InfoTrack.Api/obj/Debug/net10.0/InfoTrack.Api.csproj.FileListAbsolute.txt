@@ -41,3 +41,5 @@
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/Microsoft.Extensions.Options.dll
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/InfoTrack.Models.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Api/bin/Debug/net10.0/InfoTrack.Models.pdb

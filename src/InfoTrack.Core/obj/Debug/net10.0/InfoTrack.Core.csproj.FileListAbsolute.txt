@@ -15,3 +15,5 @@
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Core/bin/Debug/net10.0/InfoTrack.Scraping.pdb
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Core/bin/Debug/net10.0/InfoTrack.Parsing.pdb
 /home/raldis/Personal/InfoTrack/src/InfoTrack.Core/obj/Debug/net10.0/InfoTrac.59947F06.Up2Date
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/bin/Debug/net10.0/InfoTrack.Models.dll
+/home/raldis/Personal/InfoTrack/src/InfoTrack.Core/bin/Debug/net10.0/InfoTrack.Models.pdb

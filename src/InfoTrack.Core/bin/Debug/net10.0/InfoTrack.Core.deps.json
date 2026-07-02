@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "InfoTrack.Core/1.0.0": {
         "dependencies": {
+          "InfoTrack.Models": "1.0.0",
           "InfoTrack.Parsing": "1.0.0",
           "InfoTrack.Scraping": "1.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.9"
@@ -55,7 +56,18 @@
           }
         }
       },
+      "InfoTrack.Models/1.0.0": {
+        "runtime": {
+          "InfoTrack.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "InfoTrack.Parsing/1.0.0": {
+        "dependencies": {
+          "InfoTrack.Models": "1.0.0"
+        },
         "runtime": {
           "InfoTrack.Parsing.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -110,6 +122,11 @@
       "sha512": "sha512-fmEbAUFsaIKirgLt/lYhuFRBwhcSJN31jjHgCdbQxJiWOum6EdLjkbgGuukSP9z/a+9LibaxII/kF+GwOXgC4g==",
       "path": "microsoft.extensions.primitives/10.0.9",
       "hashPath": "microsoft.extensions.primitives.10.0.9.nupkg.sha512"
+    },
+    "InfoTrack.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "InfoTrack.Parsing/1.0.0": {
       "type": "project",

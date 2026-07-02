@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfoTrack.Scraping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+578a078ec84ee576ff91437143b762f2971956eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a82e23c2635ee6a3022547c502d5bb20a7862e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfoTrack.Scraping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfoTrack.Scraping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
