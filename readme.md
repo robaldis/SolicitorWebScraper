@@ -1,43 +1,39 @@
-# InfoTrack Conveyancing
+# Solicitor Scraper
 
-## Components
+This app scrapes https://www.solicitors.com for conveyancer solicitors in certain
+regions
 
-### Front end
+To run the app open two terminals and 
+run the backend and front end code with 
 
-### Backend API
+```bash
+
+# Terminal 1
+cd client
+npm run dev
+
+# Terminal 2
+cd src/InfoTrack.Api
+dotnet run
+
+```
 
 
-### Scrapper
+# Front end
 
-### Parser
+Front end is a vue app that talks to the backend api, doing minimal validation 
+on the inputs
 
-There are two shapes for the entries (top level, the rest), the parser needs to 
-handle both
+# The backend
 
+C# api with a few endpoints
 
-## Things to keep in mind
+Health, check the system is up
 
-HttpClient usage
+Locations, get the valid set of locations we can handle, this is configured with
+the appsettings.json configuration and can be extended
 
-Never new HttpClient() per request — classic beginner mistake, causes socket exhaustion. Use IHttpClientFactory via services.AddHttpClient<HttpWebScraper>().
-All scraper calls should be async all the way down (GetStringAsync, async Task<string>), no .Result or .Wait() blocking calls anywhere.
-
-Models
-
-Use record types for your DTOs (Solicitor, SearchRequest) — immutable, concise, shows familiarity with modern C#. Records are a decent flex for a company checking current .NET knowledge.
-
-Async naming & exceptions
-
-Suffix async methods with Async (ScrapeAsync, ParseAsync).
-Don't let scraper failures for one location kill the whole batch — wrap per-location calls in try/catch, log, and continue, so if Bristol 404s the other 7 cities still return.
-Avoid swallowing exceptions silently — at minimum log via ILogger<T>.
-
-Add explicit CORS policy in Program.cs for your SPA's origin — this was called out as a common failure, so don't skip it or leave it as AllowAnyOrigin without at least knowing why.
-
-Config
-
-Put the base URL, location list defaults, and connection string in appsettings.json, not hardcoded — bind via IOptions<T> if you want to show that pattern too.
-
+Conveyancer, listing query that scrapes `https://www.solicitors.com/`, can input 
+a list of locations to do a full search
 
  
-
